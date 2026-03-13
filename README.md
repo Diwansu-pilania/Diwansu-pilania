@@ -32,21 +32,16 @@ project = {
 ![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
 ![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=150458)
 ![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=013243)
-
 ![LangChain](https://img.shields.io/badge/LangChain-0d1117?style=for-the-badge&logo=chainlink&logoColor=00D9FF)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-0d1117?style=for-the-badge&logo=huggingface&logoColor=FFD21E)
 ![Transformers](https://img.shields.io/badge/Transformers-0d1117?style=for-the-badge&logo=huggingface&logoColor=FFD21E)
 ![LLM](https://img.shields.io/badge/LLM-0d1117?style=for-the-badge&logo=openai&logoColor=412991)
-
 ![AstraDB](https://img.shields.io/badge/AstraDB-0d1117?style=for-the-badge&logo=datastax&logoColor=00E599)
 ![VectorDB](https://img.shields.io/badge/Vector%20Database-0d1117?style=for-the-badge&logo=databricks&logoColor=FF3621)
-
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-0d1117?style=for-the-badge&logo=python&logoColor=00D9FF)
 ![WebScraping](https://img.shields.io/badge/Web%20Scraping-0d1117?style=for-the-badge&logo=scrapy&logoColor=60A839)
-
 ![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ffffff)
-
 ![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=FCC624)
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
 
