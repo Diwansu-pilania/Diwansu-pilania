@@ -8,42 +8,30 @@
 
 </div>
 
-## `> current_project.py`
+## 🧠 current_agent.sh
 
-agent = {
-    "project"  : "Autonomous CTF Solver",
-    "type"     : "LLM Security Agent",
-    "capabilities": [
-        "Scrape CTF writeups from GitHub",
-        "Build embeddings for CTF challenges",
-        "Store solutions in vector database",
-        "Retrieve similar crypto challenges",
-        "Reason step-by-step using LLM",
-        "Generate exploit scripts automatically"
-    ],
-    "pipeline": [
-        "Scrape GitHub CTF writeups",
-        "Extract crypto challenges",
-        "Generate embeddings",
-        "Store in vector database",
-        "LLM retrieves relevant solutions",
-        "Agent generates exploit code"
-    ],
-    "tech_stack": [
-        "Python",
-        "LangChain",
-        "HuggingFace",
-        "Vector Databases",
-        "BeautifulSoup",
-        "Transformers"
-    ],
-    "target_ctfs": [
-        "picoCTF",
-        "CryptoHack",
-        "CTFtime challenges"
-    ],
-    "status": "🚧 Building autonomous reasoning agent"
-}
+```bash
+$ ./launch_ctf_agent
+
+[+] Initializing Autonomous CTF Solver...
+[+] Loading Crypto Challenge Dataset
+[+] Scraping Writeups from GitHub Repositories
+[+] Building Vector Embedding Index
+[+] Connecting LLM Reasoning Engine
+
+Agent Capabilities:
+├── Crypto Challenge Understanding
+├── Writeup Retrieval using RAG
+├── Step-by-Step LLM Reasoning
+└── Exploit Script Generation
+
+Target Platforms:
+• picoCTF
+• CryptoHack
+• CTFtime Challenges
+
+Status: 🚧 Training Autonomous Solver
+```
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
