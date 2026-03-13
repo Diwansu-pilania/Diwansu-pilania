@@ -10,15 +10,34 @@
 
 ## `> current_project.py`
 
-```python
-project = {
-    "name"       : "Pre-Delinquency Engine for Banks",
-    "description": "Predicting loan defaults before they happen using Graph Neural Networks",
-    "tech"       : ["GNN", "PyTorch", "Pandas", "NumPy", "Python"],
-    "goal"       : "Help banks identify at-risk borrowers early using relational graph data",
-    "status"     : "🔨 In Progress"
+agent = {
+    "project"  : "Autonomous CTF Solver",
+    "type"     : "LLM Security Agent",
+
+    "capabilities": [
+        "Scrape CTF writeups from GitHub",
+        "Build vector embeddings for solutions",
+        "Retrieve similar crypto challenges",
+        "Reason using LLM step-by-step",
+        "Generate exploit scripts"
+    ],
+
+    "tech_stack": [
+        "Python",
+        "LangChain",
+        "HuggingFace",
+        "Vector Databases",
+        "BeautifulSoup"
+    ],
+
+    "target_ctfs": [
+        "picoCTF",
+        "CryptoHack",
+        "CTFtime challenges"
+    ],
+
+    "status": "🚧 Building autonomous reasoning agent"
 }
-```
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
