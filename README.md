@@ -13,29 +13,35 @@
 agent = {
     "project"  : "Autonomous CTF Solver",
     "type"     : "LLM Security Agent",
-
     "capabilities": [
         "Scrape CTF writeups from GitHub",
-        "Build vector embeddings for solutions",
+        "Build embeddings for CTF challenges",
+        "Store solutions in vector database",
         "Retrieve similar crypto challenges",
-        "Reason using LLM step-by-step",
-        "Generate exploit scripts"
+        "Reason step-by-step using LLM",
+        "Generate exploit scripts automatically"
     ],
-
+    "pipeline": [
+        "Scrape GitHub CTF writeups",
+        "Extract crypto challenges",
+        "Generate embeddings",
+        "Store in vector database",
+        "LLM retrieves relevant solutions",
+        "Agent generates exploit code"
+    ],
     "tech_stack": [
         "Python",
         "LangChain",
         "HuggingFace",
         "Vector Databases",
-        "BeautifulSoup"
+        "BeautifulSoup",
+        "Transformers"
     ],
-
     "target_ctfs": [
         "picoCTF",
         "CryptoHack",
         "CTFtime challenges"
     ],
-
     "status": "🚧 Building autonomous reasoning agent"
 }
 
